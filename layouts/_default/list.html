@@ -3,9 +3,7 @@
   {{ range .Paginator.Pages }}
   <div class="listItem">
     <img
-      src={{
-      .Params.image
-      }}
+      src={{.Params.image}}
       alt="{{.Title}}"
       class="listItemImage"
       loading="lazy"
